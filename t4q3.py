@@ -1,0 +1,5 @@
+Branches = ['CSE','IT','CSSE']
+Languages = ['Java','C','C++','Python']
+RollNumbers = [2105582,2105583,2105584,2105585,2105586]
+Names = ['Sounak','Souvik','Suvankar','Sankar']
+States = ['Odisha','West Bengal','Odisha','Odisha']
