@@ -1,4 +1,4 @@
-lst = [eval(x) for x in input('Enter the Elements: ').split(',')]
-lst1 = [eval(x) for x in input('Enter the Elements: ').split(',')]
-if set(lst) & set(lst1):
-    print(set(lst) & set(lst1))
+leng = int(input('Enter the length : '))
+high = int(input('Enter the height : '))
+for i in range(1,high+1):
+    print('*'*leng)

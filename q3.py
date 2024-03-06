@@ -1,7 +1,6 @@
-lst = [eval(x) for x in input('Enter the Elements: ').split(',')]
-a=max(lst)
-b=min(lst)
-print(f'The position max of {a} is : ',lst.index(max(lst)))
-print(f'The position min of {b} is : ',lst.index(min(lst)))
-    
-#print('The maximum and minimum of the list is : ',max(lst),min(lst))
+numbers = [11,33,55,39,55,75,37,21,23,41,13]
+even = 0
+for i in numbers:
+    if i%2 == 0:
+        even +=1
+print('Total Number of even numbers are : ',even)
